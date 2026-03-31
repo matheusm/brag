@@ -1,0 +1,42 @@
+# Brag Document - Configuracao
+# Gerado por /brag init
+
+# Granularidade dos arquivos de periodo
+# Opcoes: daily | weekly | monthly | quarterly
+period: monthly
+
+# Diretorio onde os arquivos de brag document sao salvos
+output_dir: brag
+
+# Categorias de impacto (customizaveis)
+# Adicione, remova ou renomeie categorias conforme necessario
+categories:
+  - Features entregues
+  - Bug fixes
+  - Code reviews
+  - Lideranca tecnica
+  - Melhorias de processo
+  - Outros
+
+# Fontes de dados
+# Configure apenas as fontes que voce usa
+sources:
+  # GitHub
+  # github:
+  #   type: mcp          # mcp | api
+  #   username: seu-username
+  #   repos:
+  #     - org/repo-a
+  #     - org/repo-b
+
+  # Jira
+  # jira:
+  #   type: api           # mcp | api
+  #   base_url: https://company.atlassian.net
+  #   project_keys:
+  #     - PROJ
+
+  # Linear
+  # linear:
+  #   type: mcp           # mcp | api
+  #   team: engineering
