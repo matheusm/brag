@@ -13,7 +13,7 @@ A Claude Code skill that automatically collects your contributions from GitHub, 
 ## Installation
 
 ```bash
-npx skillsadd matheusm/brag-document
+npx skills add matheusm/brag
 ```
 
 Or manually copy the `.claude/skills/brag/` directory into your project's `.claude/skills/` folder.
